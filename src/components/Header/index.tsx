@@ -1,4 +1,4 @@
-import { StyledHeader } from './styled';
+import { StyledHeader } from './styles';
 import { useState } from 'react';
 //Redix
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';

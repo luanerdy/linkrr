@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyledSignUp } from './styles';
+import { StyledSignUp } from '../../modules/signup/styles';
 
 export default function Signup() {
 	const [habilitarCad, setHabilitarCad] = useState(false);
