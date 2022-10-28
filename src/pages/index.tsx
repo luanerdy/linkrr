@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
-import HomePage from './HomePage'
 
 const Home: NextPage = () => {
-  return (
-    <>
-      <HomePage/>
-    </>
-  )
+	return (
+		<>
+			<h1>Login</h1>
+		</>
+	)
 }
 
 export default Home

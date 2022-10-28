@@ -5,9 +5,12 @@ const StyledMain = styled.main`
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	padding: 0 20px;
+
 	.container{
-		width: 80%;
+		width: 100%;
 	}
+
 	.title {
 		color: #FFFFFF;
 		font-family: 'Oswald';
@@ -15,6 +18,11 @@ const StyledMain = styled.main`
 		font-weight: 700;
 		font-size: 43px;
 		margin-bottom: 20px;
+	}
+
+	.box-feed {
+		width: 100%;
+		max-width: 600px;
 	}
 `;
 
