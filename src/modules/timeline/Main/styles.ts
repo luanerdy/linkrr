@@ -8,7 +8,7 @@ const StyledMain = styled.main`
 	padding: 0 20px;
 
 	.container{
-		width: 100%;
+		width: 40%;
 	}
 
 	.title {
