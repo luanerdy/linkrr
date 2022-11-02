@@ -15,6 +15,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 					href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Passion+One&display=swap"
 					rel="stylesheet"
 				/>
+				<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"/>
+				<link href = "https://fonts.googleapis.com/css2?família =Lato&display = swap "rel =" stylesheet "/>
 			</Head>
 			<Reset />
 			<GlobalStyle />
