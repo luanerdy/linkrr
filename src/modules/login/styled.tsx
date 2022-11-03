@@ -1,0 +1,85 @@
+import styled from 'styled-components';
+
+const Main = styled.main`
+	display: flex;
+	height: 100%;
+	box-sizing: border-box;
+`;
+
+const Slogan = styled.div`
+	background-color: #151515;
+	width: 70%;
+	box-sizing: border-box;
+	padding: 50px;
+	padding-top: 180px;
+	h1 {
+		font-family: 'Passion One', cursive;
+		font-weight: 700;
+		font-size: 106px;
+		color: #ffffff;
+	}
+	h2 {
+		font-family: 'Oswald', sans-serif;
+		width: 442px;
+		font-weight: 700;
+		font-size: 43px;
+		color: #ffffff;
+	}
+`;
+
+const SignIn = styled.form`
+	background-color: #333333;
+	box-sizing: border-box;
+	width: 30%;
+	padding: 50px;
+	padding-top: 190px;
+	a {
+		text-decoration-color: #ffffff;
+	}
+`;
+
+const Input = styled.input`
+	width: 264px;
+	height: 40px;
+	border-radius: 6px;
+	margin-top: 7px;
+	border: 0 none;
+	&:focus {
+		outline: none;
+	}
+	&::placeholder {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		color: #9f9f9f;
+		padding: 7px;
+	}
+`;
+
+const Button = styled.button`
+	width: 270px;
+	height: 40px;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1877f2;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border: 0 none;
+	cursor: pointer;
+	p {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+		color: #ffffff;
+	}
+`;
+
+const SignUp = styled.h1`
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 20px;
+`;
+
+export { Main, Slogan, SignIn, Input, Button, SignUp };
